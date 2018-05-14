@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+h1 {color:black;
+  text-align: center;
+  text-shadow: 5px 2px lightblue;
+  font-family:fanboy;
+}
+
+h2 {text-align: center;
+    text-shadow: 5px 2px lightblue;
+    font-family: fanboy;
+    font-size: 16px
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {text-align: center;
+      font-family: fanboy;
+}
+
+@font-face {
+   font-family: 'fanboy';
+   src: url("fanboyhc.ttf");
+   src: local('fanboy'), url('fanboyhc.ttf') format('truetype');
+}
+=======
+h1 {color:black;
+  text-align: center;
+  text-shadow: 5px 2px lightblue;
+  font-family:fanboy;
+}
+
+h2 {text-align: center;
+    text-shadow: 5px 2px lightblue;
+    font-family: fanboy;
+    font-size: 16px
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {text-align: center;
+      font-family: fanboy;
+}
+
+@font-face {
+   font-family: 'fanboy';
+   src: url("fanboyhc.ttf");
+   src: local('fanboy'), url('fanboyhc.ttf') format('truetype');
+}
+>>>>>>> b3f1c77f74821a30860b89542f81e7e0b4264f1b
