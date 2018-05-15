@@ -1,7 +1,7 @@
 h1 {color:black;
   text-align: center;
   text-shadow: 5px 2px lightblue;
-  font-family:fanboy;
+  font-family:font;
 }
 
 h2 {text-align: center;
@@ -22,7 +22,7 @@ body {text-align: center;
 }
 
 @font-face {
-   font-family: 'fanboy';
-   src: url("fanboyhc.ttf");
-   src: local('fanboy'), url('fanboyhc.ttf') format('truetype');
+   font-family: 'font';
+   src: url("font.ttf");
+   src: local('font'), url('font.ttf') format('truetype');
 }
