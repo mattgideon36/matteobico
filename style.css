@@ -2,29 +2,37 @@ h1 {color:black;
   text-align: center;
   text-shadow: 5px 2px lightblue;
   font-family:font;
-  font-size: 90px
-}
+  font-size: 90px;
+  padding: 1px;
+  margin: 1px
+  }
 
 h2 {text-align: center;
     text-shadow: 5px 2px lightblue;
     font-family: font;
-    font-size: 36px
+    font-size: 36px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    margin: 1px
   }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
 
-body {text-align: center;
-      font-family: font;
-      font-size: 36px
-}
+  body {text-align: center;
+        font-family: font;
+        font-size: 36px
+  }
 
-@font-face {
-   font-family: 'font';
-   src: url("font.ttf");
-   src: local('font'), url('font.ttf') format('truetype');
-}
+
+
+
+  @font-face {
+     font-family: 'font';
+     src: url("font.ttf");
+     src: local('font'), url('font.ttf') format('truetype');
+  }

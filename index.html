@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
-</head>
-<h1> LE SCALE </h1>
 
-<h2> i like to take pictures of people walking down/up staircases</h2>
+  <title>feelm(e)</title>
+
+</head>
+
+<h1> FEELM(E) </h1>
+
+<h2> everyday snapshots from my messy life </h2>
 
 
 
 <link rel="stylesheet" href="SITO FOTO.css" type="text/css">
 <body>
 
-<figure>
-<img src=".\schele1.jpg" alt="lapo sulle scale" width="1000">
-</figure>
-
-<p>my friend lapo walking up some stairs</p>
-
-<figure>
-<img src=".\schele2.jpg" alt="iaia sulle scale" width="1000">
-</figure>
-
-<p>my friend ilaria walking down some stairs</p>
-
-<figure>
-<img src=".\schele4.jpg" alt="alessio sulle scale" width="1000">
-</figure>
-
-
-<p>my friend alessio walking down some stairs with a bullitt</p>
-
-<figure>
-<img src=".\schele3.jpg" alt="bitches sulle scale" width="1000">
-</figure>
+  <img class="mySlides" src="k1.jpg">
+  <img class="mySlides" src="k2.jpg">
+  <img class="mySlides" src="k3.jpg">
+  <img class="mySlides" src="k4.jpg">
+  <img class="mySlides" src="k5.jpg">
+  <img class="mySlides" src="k6.jpg">
+  <img class="mySlides" src="k7.jpg">
+  <img class="mySlides" src="k8.jpg">
+  <img class="mySlides" src="k9.jpg">
+  <img class="mySlides" src="k10.jpg">
+  <img class="mySlides" src="k11.jpg">
+  <img class="mySlides" src="k12.jpg">
+  <img class="mySlides" src="k13.jpg">
+  <img class="mySlides" src="k14.jpg">
 
 
-<p>some bad bitches from modena on some stairs</p>
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
 </body>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 
 </html>
