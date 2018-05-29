@@ -1,16 +1,15 @@
-h1 {color:black;
-  text-align: center;
-  text-shadow: 5px 2px lightblue;
-  font-family:font;
-  font-size: 90px;
-  padding: 1px;
-  margin: 1px
+   .titolo {width: 15%;
   }
+h1 {padding: 15px;
+    margin: 1px
+
+
+}
 
 h2 {text-align: center;
     text-shadow: 5px 2px lightblue;
     font-family: font;
-    font-size: 36px;
+    font-size: 42px;
     padding-top: 1px;
     padding-bottom: 15px;
     margin: 1px
