@@ -5,10 +5,23 @@ h1 {padding: 15px;
 
 
 }
-.uno {float: right;}
+
+.uno:hover {color: grey;
+}
+
+.due:hover {color: grey;}
+
+.uno {color: black;
+      float: right;
+      margin-right: 100px;
+      padding-bottom: 0px}
 
 
-.due {float: left;}
+.due {color:black;
+      float: left;
+      margin-left: 100px;
+      padding: 0px;
+    }
 
 p {align="middle"}
 h2 {text-align: center;
