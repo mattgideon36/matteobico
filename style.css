@@ -1,10 +1,21 @@
    .titolo {width: 15%;
   }
-h1 {padding: 15px;
-    margin: 1px
 
-
+h1 {padding: 20px;
+    margin: 1px;
 }
+
+button {border-radius: 12px;
+        color:black;
+        background-color: rgba(0,0,0,0.09);
+        padding: 1px 80px;
+        opacity:0.7
+      }
+
+button:hover {
+   box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   cursor:help;
+ }
 
 .uno:hover {color: grey;
 }
@@ -29,8 +40,8 @@ h2 {text-align: center;
     /text-shadow: 5px 2px grey;/
     font-family: font;
     font-size: 42px;
-    padding-top: 1px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     margin: 1px
   }
 
