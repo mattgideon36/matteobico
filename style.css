@@ -5,9 +5,15 @@ h1 {padding: 15px;
 
 
 }
+.uno {float: right;}
 
+
+.due {float: left;}
+
+p {align="middle"}
 h2 {text-align: center;
-    text-shadow: 5px 2px lightblue;
+    font-kerning: 5px;
+    /text-shadow: 5px 2px grey;/
     font-family: font;
     font-size: 42px;
     padding-top: 1px;

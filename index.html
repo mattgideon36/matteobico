@@ -10,54 +10,35 @@
 
 </head>
 
-<h1> <img src="titolo.png" alt="" class="titolo"> </h1>
+<h1> <a href="index.html">
+  <img src="titolo.png" alt="" class="titolo">
+  </a>
+ </h1>
 
 <h2> everyday snapshots from my messy life </h2>
 
-
-
 <link rel="stylesheet" href="SITO FOTO.css" type="text/css">
+
 <body>
 
-  <img class="mySlides" src="k1.jpg">
-  <img class="mySlides" src="k2.jpg">
-  <img class="mySlides" src="k3.jpg">
-  <img class="mySlides" src="k4.jpg">
-  <img class="mySlides" src="k5.jpg">
-  <img class="mySlides" src="k6.jpg">
-  <img class="mySlides" src="k7.jpg">
-  <img class="mySlides" src="k8.jpg">
-  <img class="mySlides" src="k9.jpg">
-  <img class="mySlides" src="k10.jpg">
-  <img class="mySlides" src="k11.jpg">
-  <img class="mySlides" src="k12.jpg">
-  <img class="mySlides" src="k13.jpg">
-  <img class="mySlides" src="k14.jpg">
+<div class="a">
+<a href="karlsrhue.html">
+<pc class="uno">DMFK 2017 KARLSRUHE</p>
+</a>
+</div>
 
 
-  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+<a href="messlife.html">
+<p class="due">EVERYDAY MESSLIFE</p>
+</a>
+</div>
+
+<img src="main.jpg" alt="main" >
 
 </body>
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
 
 </html>

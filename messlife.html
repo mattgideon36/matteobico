@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+  <h1> <a href="index.html">
+  <img src="titolo.png" alt="" class="titolo">
+  </a>
+  </h1>
+
+
+<h2> 2017/2018, MILAN, ITALY - BOLOGNA, ITALY </h2>
+
+
+
+<link rel="stylesheet" href="SITO FOTO.css" type="text/css">
+<body>
+
+  <img class="mySlides" src="m1.jpg">
+  <img class="mySlides" src="m2.jpg">
+  <img class="mySlides" src="m3.jpg">
+  <img class="mySlides" src="m4.jpg">
+  <img class="mySlides" src="m5.jpg">
+  <img class="mySlides" src="m6.jpg">
+  <img class="mySlides" src="m7.jpg">
+  <img class="mySlides" src="m8.jpg">
+  <img class="mySlides" src="m9.jpg">
+  <img class="mySlides" src="m10.jpg">
+  <img class="mySlides" src="m11.jpg">
+  <img class="mySlides" src="m12.jpg">
+  <img class="mySlides" src="m13.jpg">
+  <img class="mySlides" src="m14.jpg">
+  <img class="mySlides" src="m15.jpg">
+  <img class="mySlides" src="m16.jpg">
+  <img class="mySlides" src="m17.jpg">
+  <img class="mySlides" src="m18.jpg">
+  <img class="mySlides" src="m19.jpg">
+
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+</body>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+</html>
