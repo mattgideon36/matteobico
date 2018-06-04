@@ -1,9 +1,13 @@
-   .titolo {width: 15%;
-  }
+.titolo {width: 15%;
+display: inline;
+}
+
+.head {text-align: center;}
 
 h1 {padding: 5px;
     margin: 1px;
-}
+    text-align: center;
+  }
 
 button {border-radius: 12px;
         color:black;
@@ -17,24 +21,13 @@ button:hover {
    cursor:help;
  }
 
-.uno:hover {color: grey;
-}
-
-.due:hover {color: grey;}
-
-.uno {color: black;
-      float: right;
-      margin-right: 100px;
-      padding-bottom: 0px}
+.uno {text-align:right}
+.due {text-align: left;}
 
 
-.due {color:black;
-      float: left;
-      margin-left: 100px;
-      padding: 0px;
-    }
 
 p {align="middle"}
+
 h2 {text-align: center;
     font-kerning: 5px;
     /text-shadow: 5px 2px grey;/
@@ -52,8 +45,7 @@ h2 {text-align: center;
       width: 50%;
   }
 
-  body {text-align: center;
-        font-family: font;
+  body {font-family: font;
         font-size: 36px
   }
 
