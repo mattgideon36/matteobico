@@ -1,49 +1,104 @@
-.titolo {width: 15%;
+.titolo {width: 20%;
 display: inline;
+margin-left: 0px;
+padding-left: 0px;
+margin-right: 35%;
+margin-bottom: 2%;
+padding-top: 2%
 }
+
 
 .head {text-align: center;}
 
+
+
 h1 {padding: 5px;
     margin: 1px;
-    text-align: center;
+    font-size: 25px;
   }
+
+  .info {position: absolute;
+    left: 93%;
+    top: 6%;
+    padding: -50px;
+  text-align: right;
+  margin:0px;
+  padding:0px;
+ font-size: 25px;
+ font-weight: lighter;}
+
+  .sottotitolo {text-align: center;
+      font-kerning: 5px;
+      /text-shadow: 5px 2px grey;/
+      font-family: font;
+      font-size: 42px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+      margin: 1px
+    }
+
+
+    .bdx, .bsx {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top:4%;
+      padding:8px;
+      color: black;
+      opacity:0.5;
+      background-color:white;
+      font-weight: lighter;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+    .bsx {left:36.8%}
+    .bdx {
+      right:9.1%;
+      border-radius: 3px 0 0 3px;
+    }
+
+    img {display:flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
 
 button {border-radius: 12px;
         color:black;
         background-color: rgba(0,0,0,0.09);
         padding: 1px 80px;
-        opacity:0.7
+        opacity: 33%
       }
 
 button:hover {
    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-   cursor:help;
+   cursor:pointer;
  }
 
-.uno {text-align:right}
-.due {text-align: left;}
+a {color: black;
+  text-decoration: none;
+
+}
+a:hover {color:grey}
 
 
 
-p {align="middle"}
+.box1{
+  padding-left:0.5%;
+  width:28%;
+  display: table-cell;
+  vertical-align: top;
 
-h2 {text-align: center;
-    font-kerning: 5px;
-    /text-shadow: 5px 2px grey;/
-    font-family: font;
-    font-size: 42px;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    margin: 1px
-  }
+}
 
-  img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-  }
+.box2{
+  padding-top: 2.9%;
+  width:72%;
+  display: table-cell;
+  vertical-align: top;
+}
 
   body {font-family: font;
         font-size: 36px
