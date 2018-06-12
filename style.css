@@ -3,14 +3,11 @@ display: inline;
 margin-left: 0px;
 padding-left: 0px;
 margin-right: 35%;
-margin-bottom: 2%;
+margin-bottom: 0%;
 padding-top: 2%
 }
 
-
 .head {text-align: center;}
-
-
 
 h1 {padding: 5px;
     margin: 1px;
@@ -62,7 +59,7 @@ h1 {padding: 5px;
     img {display:flex;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 65%;
     }
 
 button {border-radius: 12px;
@@ -87,21 +84,21 @@ a:hover {color:grey}
 
 .box1{
   padding-left:0.5%;
-  width:28%;
+  width:18%;
   display: table-cell;
   vertical-align: top;
 
 }
 
 .box2{
-  padding-top: 2.9%;
-  width:72%;
+  padding-top: 0%;
+  width:82%;
   display: table-cell;
   vertical-align: top;
 }
 
   body {font-family: font;
-        font-size: 36px
+        font-size: 36px;
   }
 
   @font-face {
