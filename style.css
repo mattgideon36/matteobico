@@ -65,12 +65,6 @@ h1 {padding: 5px;
         width: 65%;
     }
 
-button {border-radius: 12px;
-        color:black;
-        background-color: rgba(0,0,0,0.09);
-        padding: 1px 80px;
-        opacity: 33%
-      }
 
 button:hover {
    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
