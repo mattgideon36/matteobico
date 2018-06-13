@@ -35,10 +35,10 @@ h1 {padding: 5px;
     }
 
 
-    .bdx, .bsx {
+.box2 .bdx, .bsx {
       cursor: pointer;
       position: absolute;
-      top: 50%;
+      top: 45%;
       width: auto;
       margin-top:4%;
       padding-left:1px;
@@ -53,16 +53,16 @@ h1 {padding: 5px;
       transition: 0.6s ease;
       border-radius: 0 3px 3px 0;
     }
-    .bsx {left:29.5%}
+    .bsx {left:32.2%}
     .bdx {
-      right:15.7%;
+      right:18.3%;
       border-radius: 3px 0 0 3px;
     }
 
 .box2 img {display:flex;
         margin-left: auto;
         margin-right: auto;
-        width: 65%;
+        width: 60%;
     }
 
 
