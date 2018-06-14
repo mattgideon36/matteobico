@@ -23,12 +23,6 @@
 
 <body>
 
-  <div id="loading_screen">
-    <img src="gif.gif" alt="">
-  </div>
-  <script type="text/javascript">
-  mostra_loading_screen();
-  </script>
 
    <div class="box1">
      <p style="font-weight:bold">GALLERIES:</p>
@@ -82,24 +76,6 @@
 
 </body>
 
-<script type="text/javascript">
-(function(){
-  if (window.addEventListener)
-  {
-    window.addEventListener("load", nascondi_loading_screen, false);
-  }else{
-    window.attachEvent("onload", nascondi_loading_screen);
-  }
-})();
-function mostra_loading_screen()
-{
-  document.getElementById("loading_screen").style.display = 'block';
-}
-function nascondi_loading_screen()
-{
-  document.getElementById("loading_screen").style.display = 'none';
-}
-</script>
 <script>
 
 var slideIndex = 1;
