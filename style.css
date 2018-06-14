@@ -47,7 +47,10 @@ h1 {padding: 0.2%;
  background-color: transparent;
  color: white;
  font-size: 16px;
- padding: 240px 2px;
+ padding-top:19%;
+ padding-bottom:19%;
+ padding-left:0.6%;
+ padding-right: 0.1%;
  border: none;
  cursor: pointer;
  border-radius: 5px;
@@ -63,7 +66,10 @@ h1 {padding: 0.2%;
   background-color: transparent;
   color: white;
   font-size: 16px;
-  padding: 240px 2px;
+  padding-top:19%;
+  padding-bottom:19%;
+  padding-left:0.1%;
+  padding-right: 0.6%;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -75,12 +81,6 @@ h1 {padding: 0.2%;
    margin-left:19.5%;
         width: 60%;
     }
-
-
-button:hover {
-   box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-   cursor:pointer;
- }
 
 a {color: black;
   text-decoration: none;
