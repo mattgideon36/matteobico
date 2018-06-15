@@ -10,7 +10,6 @@
 
   <div class="info">
   <p> <a href="gear.html"> MY GEAR</a> </p>
-  <p> <a href="aboutme.html">ABOUT ME</a> </p>
   </div>
 
 <a href="index.html"> <img class="titolo" src="titolo.png" alt=""> </a>
@@ -25,7 +24,7 @@
 
 
    <div class="box1">
-     <p style="font-weight:bold">CAMERAS:</p>
+     <p style="font-weight:bold">CAMERAS I USE:</p>
      <p>
      <a href="gear1.html">
      CANON T70
@@ -33,23 +32,42 @@
      </p>
      <p>
      <a href="gear2.html">
-     OLYMPUS TRIP AF
+     OLYMPUS TRIP AF10
      </a>
      </p>
-     <p>
-     <a href="gear3.html">
-     NIKON
-     </a>
-     </p>
-     <p>
+
 
    </div>
-   <div class="container">
-  <img class="gif" src="gif.gif">
+   <div class="containergear">
+  <img class="mySlides" src="g/g1.jpg">
+  <img class="mySlides" src="g/g2.jpg">
+  <img class="mySlides" src="g/g3.jpg">
+  <img class="mySlides" src="g/g4.jpg">
+  <img class="mySlides" src="g/g5.jpg">
+  <img class="mySlides" src="g/g6.jpg">
+  <img class="mySlides" src="g/g7.jpg">
+  <img class="mySlides" src="g/g8.jpg">
+  <img class="mySlides" src="g/g9.jpg">
+  <img class="mySlides" src="g/g10.jpg">
 </div>
 
 </body>
 
+<script>
+var myIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 500);
+}
+</script>
 
 </html>

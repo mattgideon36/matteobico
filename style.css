@@ -79,6 +79,11 @@ width:70%}
   width: auto;
           }
 
+.containergear .mySlides {position:absolute;
+width:30%;
+top:25%;
+left:21%;
+}
  img {
    margin-left:19.5%;
         width: 60%;
